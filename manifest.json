@@ -1,0 +1,18 @@
+{
+    "background_color": "#ffffff",
+    "description": "A series of personal finance and tech guides",
+    "display": "standalone",
+    "name": "mfdb.dev",
+    "orientation": "portrait",
+    "scope": "/",
+    "short_name": "mfdb.dev",
+    "start_url": "/?homescreen=1",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "/favicon.ico.jpg",
+        "sizes": "36x36",
+        "type": "image/jpg"
+      }
+    ]
+  }
