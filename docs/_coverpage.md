@@ -8,5 +8,5 @@
 - 
 - Practical Index Fund Analysis
 
-[GitHub](https://github.com/miacheldbianchi/mfdb.dev/)
+[GitHub](https://github.com/michaeldbianchi/mfdb.dev/)
 [Getting Started](#mfdbdev)
