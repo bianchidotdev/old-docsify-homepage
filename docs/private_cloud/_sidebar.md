@@ -6,4 +6,5 @@
   - [Chosen Software](private_cloud/software.md)
   - [NextCloud Setup](private_cloud/nextcloud.md)
   - [Plex](private_cloud/plex.md)
-  - [Traefik + Networking](private_cloud/traefik.md)
+  - [Networking](private_cloud/networking.md)
+  - [Traefik](private_cloud/traefik.md)
