@@ -40,9 +40,11 @@ Set up DNS overrides using `/etc/hosts` (Linux or Mac)
 
 Usually requires `sudo` unless you are acting as root
 
+**set_dns_overrides.sh**
+
 [gist: set_dns_overrides.sh](https://gist.githubusercontent.com/michaeldbianchi/c9c79d37de8d125c2ac82df8a13773ff/raw/set_dns_overrides.sh ':include :type=code')
 
-This script is also included as an executable in the source code under `./bin/set_dns_overrides`
+This script is also included as an executable in the source code under `./bin/set_dns_overrides.sh`
 
 NOTE: If you are setting this up on a remote host, feel free to change `127.0.0.1` with the IP address of the server.
 
@@ -55,4 +57,4 @@ docker-compose -f logs  # tail the logs
 open http://cloud.example.com  # open the browser for your cloud page
 ```
 
-If you are using the local DNS override, you can expect errors from the Traefik service saying it is unable to generate SSL certificates. This is fine and won't impede local testing.
+If you are using the local DNS override, you can expect errors from the browser as well as the Traefik service saying it is unable to generate SSL certificates. This is fine and won't impede local testing.
