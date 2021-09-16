@@ -1,6 +1,8 @@
 Quick Start
 =============
 
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+
 ## Source Code
 
 Clone the repo at the [michaeldbianchi/privatecloud](https://github.com/michaeldbianchi/privatecloud)
@@ -38,7 +40,7 @@ Set up DNS overrides using `/etc/hosts` (Linux or Mac)
 
 Usually requires `sudo` unless you are acting as root
 
-[gist: set_dns_overrides](https://gist.githubusercontent.com/michaeldbianchi/c9c79d37de8d125c2ac82df8a13773ff/raw/set_dns_overrides ':include :type=code')
+[gist: set_dns_overrides.sh](https://gist.githubusercontent.com/michaeldbianchi/c9c79d37de8d125c2ac82df8a13773ff/raw/set_dns_overrides.sh ':include :type=code')
 
 This script is also included as an executable in the source code under `./bin/set_dns_overrides`
 
