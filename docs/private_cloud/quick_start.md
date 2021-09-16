@@ -31,23 +31,26 @@ POSTGRES_USER=nextcloud
 ```
 
 ## Networking
-Set up DNS to point to your server/computer.
+You have 2 options here, either do the full setup (described on the [networking page](private_cloud/networking.md)) which involves setting up DNS with your actual domain and port forwarding, or set up a local override, described below.
 
-This is required for at least the subdomains you specified in the `.env` file. Optionally, you can add a wildcard (*) resolution for your domain.
+### Local DNS Override
+Set up DNS overrides using `/etc/hosts` (Linux or Mac)
 
-Implementation will vary by provider, but you will just need to add an A record pointing to your public IP address.
+Usually requires `sudo` unless you are acting as root
 
-Find your public IP address
+[gist: set_dns_overrides](https://gist.githubusercontent.com/michaeldbianchi/c9c79d37de8d125c2ac82df8a13773ff/raw/set_dns_overrides ':include :type=code')
 
-```sh
-curl icanhazip.org
-```
+This script is also included as an executable in the source code under `./bin/set_dns_overrides`
 
-NOTE: Your public IP will likely change, see the [networking page](private_cloud/networking.md) for details of how to set up Dynamic DNS.
+NOTE: If you are setting this up on a remote host, feel free to change `127.0.0.1` with the IP address of the server.
 
 ## Run the app
 
 ```sh
 docker-compose up -d    # run app in background
 docker-compose -f logs  # tail the logs
+
+open http://cloud.example.com  # open the browser for your cloud page
 ```
+
+If you are using the local DNS override, you can expect errors from the Traefik service saying it is unable to generate SSL certificates. This is fine and won't impede local testing.
