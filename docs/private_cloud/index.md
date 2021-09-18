@@ -38,9 +38,9 @@ Software (on your development machine):
 Domain Registration
 - One domain that you can control DNS with (I use Cloudflare)
 
-If you just want to test this out in an ephemeral environment, I included a `Vagrantfile` in the source code repo.
-
 ### Vagrant Instructions
+
+If you just want to test this out in an ephemeral environment, I included a `Vagrantfile` in the source code repo.
 
 ```bash
 vagrant plugin install vagrant-docker-compose
