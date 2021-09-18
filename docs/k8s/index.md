@@ -1,7 +1,7 @@
 Bare Metal Kubernetes Setup
 =============
 
-!> This is an incomplete guide. It may or may not ever be finished. Check out [private_cloud](private_cloud/index.md) for a complete guide.
+!> This is an incomplete guide. It may or may not ever be finished. Check out [privatecloud](private_cloud/index.md) for a complete guide.
 
 ## What this is
 This is one of many ways to set up kubernetes at home. 
