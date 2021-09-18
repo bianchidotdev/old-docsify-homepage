@@ -8,7 +8,7 @@ Quick Start
 Clone the repo at the [michaeldbianchi/privatecloud](https://github.com/michaeldbianchi/privatecloud)
 
 
-### Setup
+## Setup
 
 ```sh
 # Run the setup script
@@ -24,7 +24,6 @@ BASE_DOMAIN=example.com        # your domain - required for HTTPS to work
 NEXTCLOUD_SUBDOMAIN=nextcloud. # trailing . required for interpolation
 ROUTER_SUBDOMAIN=router.
 TRAEFIK_SUBDOMAIN=traefik.
-
 
 # db.env
 POSTGRES_PASSWORD=<INSERTSTRONGPASSWORDHERE>

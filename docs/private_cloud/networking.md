@@ -1,7 +1,16 @@
 Networking
 =============
 
-## Coming Soon
+## Setup
+
+If you want to just set up this project locally, follow the process in the [Quickstart](private_cloud/quick_start.md).
+
+This will walk through the following steps:
+1. DNS Setup
+1. Port-forwarding
+
+### DNS Setup
+
 Set up DNS to point to your server/computer.
 
 This is required for at least the subdomains you specified in the `.env` file. Optionally, you can add a wildcard (*) resolution for your domain.
@@ -13,5 +22,3 @@ Find your public IP address
 ```sh
 curl icanhazip.org
 ```
-
-NOTE: Your public IP will likely change, see the [networking page](private_cloud/networking.md) for details of how to set up Dynamic DNS.
