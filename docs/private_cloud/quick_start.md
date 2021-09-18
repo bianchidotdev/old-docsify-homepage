@@ -10,8 +10,9 @@ Clone the repo at the [michaeldbianchi/privatecloud](https://github.com/michaeld
 
 ## Setup
 
+Run the setup script
+
 ```sh
-# Run the setup script
 ./bin/setup
 ```
 
