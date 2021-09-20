@@ -2,5 +2,5 @@
 
 - [Projects](projects.md)
   - [Private Cloud](private_cloud/index.md)
-  - [Kubernetes on Bare Metal](k8s/index.md) - On Hold
-  <!-- - [Finance @michaeldbianchi](https://finance.michaeldbianchi.com/finance) -->
+  - [Kubernetes on Bare Metal (on hold)](k8s/index.md)
+  - [Finance @michaeldbianchi](https://finance.michaeldbianchi.com/finance)
