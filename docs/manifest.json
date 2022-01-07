@@ -2,10 +2,10 @@
     "background_color": "#ffffff",
     "description": "A series of personal finance and tech guides",
     "display": "standalone",
-    "name": "mfdb.dev",
+    "name": "bianchi.dev",
     "orientation": "portrait",
     "scope": "/",
-    "short_name": "mfdb.dev",
+    "short_name": "bianchi.dev",
     "start_url": "/?homescreen=1",
     "theme_color": "#ffffff",
     "icons": [

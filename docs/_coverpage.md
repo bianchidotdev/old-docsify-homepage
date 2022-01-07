@@ -1,6 +1,6 @@
 <!-- ![logo](_media/icon.png) -->
 
-# mfdb <small>.dev</small>
+# bianchi <small>.dev</small>
 
 > Personal Finance + Cloud Native Obsessor
 
@@ -8,5 +8,5 @@
 - 
 - Practical Index Fund Analysis
 
-[GitHub](https://github.com/michaeldbianchi/mfdb.dev/)
-[Getting Started](#mfdbdev)
+[GitHub](https://github.com/michaeldbianchi/bianchi.dev/)
+[Getting Started](#bianchidev)
